@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "D3VZC9IkOgLcN+OGcycutBGpBf85QpylgwHk+qhJoB9I6hkEm+M6S9AKiXwqz7zlxH2cgZ4cTz76IXidMiVCfw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas M. Lacerda\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Lucas M. Lacerda\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Lucas M. Lacerda\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Lucas M. Lacerda\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Lucas M. Lacerda\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Lucas M. Lacerda\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
