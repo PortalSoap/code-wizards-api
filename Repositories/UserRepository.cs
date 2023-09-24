@@ -26,8 +26,8 @@ namespace code_wizards_api.Repositories
 
         public async Task<UserModel> Add(UserModel user)
         {
-            _dbContext.Users.Add(user);
-            _dbContext.SaveChanges();
+            await _dbContext.Users.AddAsync(user);
+            await _dbContext.SaveChangesAsync();
 
             return user;
         }
@@ -45,7 +45,7 @@ namespace code_wizards_api.Repositories
            targetUser.Email = user.Email;
 
            _dbContext.Users.Update(user);
-           _dbContext.SaveChanges();
+           await _dbContext.SaveChangesAsync();
 
            return targetUser;
         }
@@ -60,7 +60,7 @@ namespace code_wizards_api.Repositories
             }
 
             _dbContext.Users.Remove(targetUser);
-            _dbContext.SaveChanges();
+            await _dbContext.SaveChangesAsync();
 
             return true;
         }
