@@ -1,3 +1,4 @@
+using code_wizards_api.Data.Map;
 using code_wizards_api.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,9 @@ namespace code_wizards_api.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new UserMap());
+            modelBuilder.ApplyConfiguration(new NoteMap());
+            
             base.OnModelCreating(modelBuilder);
         }
     }
