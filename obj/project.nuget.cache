@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W2uFD4UAVjkWwSDGB1ZM31SlCvieQqqFHzNKdirxP+retXudomZyGtbl98CBciUPwOP8S8j1TfGnh0vO+Z8FzQ==",
+  "dgSpecHash": "YjDopqZHgunCbhBphpyL1TF0nx0gIHKeyonGuFdZbsvZGBmgk/OjdjRpRJ1IJI6xieT3zD9aooUQVx4zdfzkTA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj",
+  "projectFilePath": "C:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas M. Lacerda\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Lucas M. Lacerda\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
