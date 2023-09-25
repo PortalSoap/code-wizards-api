@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\code-wizards-api.props" />
+</Project>

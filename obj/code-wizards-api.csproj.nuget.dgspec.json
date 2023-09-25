@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj": {}
+    "C:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj": {
+    "C:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj",
         "projectName": "code-wizards-api",
-        "projectPath": "c:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj",
+        "projectPath": "C:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\code-wizards-api.csproj",
         "packagesPath": "C:\\Users\\Lucas M. Lacerda\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\obj\\",
+        "outputPath": "C:\\Users\\Lucas M. Lacerda\\Desktop\\code-wizards-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
