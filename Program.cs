@@ -1,3 +1,9 @@
+using code_wizards_api.Data;
+using code_wizards_api.Repositories;
+using code_wizards_api.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+
 namespace code_wizards_api;
 
 public class Program
@@ -12,6 +18,13 @@ public class Program
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+
+        builder.Services.AddEntityFrameworkSqlServer()
+            .AddDbContext<NotesSystemDbContext>(
+                options => options.UseSqlServer(builder.Configuration.GetConnectionString("Database"))
+            );
+            
+        builder.Services.AddScoped<IUserRepository, UserRepository>();
 
         var app = builder.Build();
 
