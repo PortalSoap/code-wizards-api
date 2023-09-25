@@ -44,7 +44,7 @@ namespace code_wizards_api.Repositories
            targetUser.Name = user.Name;
            targetUser.Email = user.Email;
 
-           _dbContext.Users.Update(user);
+           _dbContext.Users.Update(targetUser);
            await _dbContext.SaveChangesAsync();
 
            return targetUser;
