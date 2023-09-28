@@ -1,15 +1,16 @@
-# Build Stage
-FROM mcr.microsoft.com/dotnet/sdk:6.0-focal AS build
-WORKDIR /source
-COPY . .
-RUN dotnet restore "code-wizards-api.csproj" --disable-parallel
-RUN dotnet publish "code-wizards-api.csproj" -c release -o /app --no-restore
-
-# Serve Stage
-FROM mcr.microsoft.com/dotnet/sdk:6.0-focal
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 WORKDIR /app
-COPY --from=build /app ./
 
-EXPOSE 5000
+COPY code-wizards-api.csproj ./
+RUN dotnet restore
 
-ENTRYPOINT [ "dotnet", "code-wizards-api.dll" ]
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0
+WORKDIR /app
+COPY --from=build-env /app/out .
+
+EXPOSE 80
+
+ENTRYPOINT ["dotnet", "code-wizards-api.dll"]
